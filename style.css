@@ -13,19 +13,55 @@ body {
 }
 
 .container {
+
+}
+
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
+.side {
+    height: 100vh;
+    width: 50%;
+    background-color: #cc527a;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    /* animation-name: slide;
+    animation-duration: 1.5s;
+    animation-timing-function: cubic-bezier();
+    animation-iteration-count: 1; */
+}
+
+/* @keyframes slide {
+    0%{
+        transform: scaleX(100%);
+    }
+
+    100%{
+        transform: scaleX(25%);
+    }
+} */
+
+
 .nav-bar {
-    background-color: #a8a7a86c;
     height: 40px;
     width: 85%;
     margin: 20px;
-    border-radius: 2rem;
+    border-radius: 65px;
+    background: #a8a7a86c;
 }
+
+.nav-bar:before {
+    content: "";
+
+}
+
 
 .logo-div {
     margin: 210px;
