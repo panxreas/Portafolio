@@ -60,6 +60,7 @@ body {
     background: #a8a7a86c;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .img-cont {
@@ -98,6 +99,7 @@ body {
     width: 110%;
     justify-content: center;
     align-items: center;
+
 }
 
 .s-menu:hover {
@@ -109,6 +111,38 @@ body {
     color: #a8a7a8;
     text-align: center;
     text-decoration: none;
+}
+
+.icons {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iconTainer {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #a8a7a838;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #363636;
+}
+
+.iconTainer:hover {
+    box-shadow: #cc527a 0px 0px 8px;
+    background-color: #363636;
+}
+
+.iconTainer img {
+    margin: 5px;
+    width: 70%;
+    max-width: 70%;
+    height: auto;
+    mix-blend-mode:overlay;
 }
 
 .logo-div {
@@ -161,6 +195,9 @@ body {
         border-radius: 2rem;
     }
 
+    .icons {
+        width: 35%;
+     }
 }
 
 
@@ -186,4 +223,8 @@ body {
         margin: 20px;
         border-radius: 2rem;
     }
+
+     .icons {
+        width: 45%;
+     }
 }
